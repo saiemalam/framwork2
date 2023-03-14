@@ -1,0 +1,16 @@
+<test name="Regression1">
+    <groups>
+        <run>
+            <exclude name="tst1" />
+            <include name= "tst" />
+        </run>
+    </groups>
+
+    <classes>
+        <class name="autozonetest">
+            <methods>
+                <include name="tst" />
+            </methods>
+        </class>
+    </classes>
+</test>
