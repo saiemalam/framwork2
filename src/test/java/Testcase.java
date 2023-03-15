@@ -15,7 +15,7 @@ public class Testcase extends setup {
     void setuptest(){
 
         setupdriver("http://ebay.com");
-        home = PageFactory.initElements(driver,homepage.class);
+        home = PageFactorgity.initElements(driver,homepage.class);
 
 
 
