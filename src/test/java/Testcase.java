@@ -9,13 +9,13 @@ public class Testcase extends setup {
 
     // find the text "Health & Household"
     // expected result will be matched.
-
+//saiem alam
     homepage home;
 @BeforeMethod
     void setuptest(){
 
         setupdriver("http://ebay.com");
-        home = PageFactorgity.initElements(driver,homepage.class);
+        home = PageFactory.initElements(driver,homepage.class);
 
 
 
